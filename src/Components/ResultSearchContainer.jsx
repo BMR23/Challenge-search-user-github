@@ -59,13 +59,13 @@ const ResultSearchContainer = ({username, clicked}) => {
                 )}
                 {result && (
                     <div className="max-w-[90%] mx-auto">
-                        <div id="users" className="flex gap-5 sm:gap-8 flex-col sm:flex-row items-center">
+                        <div id="users" className="flex gap-5 sm:gap-8 flex-col sm:flex-row items-center sm:items-center">
                             <img
                                 className="rounded-full border-blue-600 border-2 size-55"
                                 src={avatarUrl}
                                 alt="" />
                             <div id="name_description"
-                                className="m-auto flex flex-col sm:items-start items-center"
+                                className="m-auto flex flex-col sm:items-start items-center mx-0"
                                 >
                                 <h2
                                     className="text-2xl text-blue-600 font-bold capitalize pb-5"
@@ -73,7 +73,7 @@ const ResultSearchContainer = ({username, clicked}) => {
                                     {userName}
                                 </h2>
                         
-                                <p className="text-[1rem]"> {userBio || "Sem bio"}
+                                <p className="text-[1rem]"> {userBio || "Sem biografia"}
                                 </p>
                             </div>
                         </div>
