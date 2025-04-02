@@ -1,6 +1,7 @@
 import GithubLogo from "./Components/GithubLogo"
 import './App.css'
 import ButtonSearch from "./Components/ButtonSearch"
+import ResultSearchContainer from "./Components/ResultSearchContainer"
 
 const App = () => {
     return (
@@ -19,6 +20,8 @@ const App = () => {
                         stylesIcon={"text-white sm:h-10 h-7"}
                     />
                 </div>
+
+                <ResultSearchContainer />
             </div>
         </div>
     )
