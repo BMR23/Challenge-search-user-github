@@ -22,10 +22,12 @@ const App = () => {
         setFirstClick(true)
     } 
 
+    const reset = () => setFirstClick(false)
+
     return (
         <div className="bg-black h-[100dvh]">
             <div className="container mx-auto pt-10">
-                <header className="title flex justify-center items-center gap-3">
+                <header onClick={reset} className="title flex justify-center items-center gap-3 cursor-pointer">
                     <GithubLogo styles={'h-12 sm:h-16'}/>
                     <h1 className="text-white text-4xl sm:text-7xl"
                     >Perfil <strong>GitHub</strong></h1>
