@@ -1,4 +1,5 @@
-import GitHubWhite from "C:/Development/AVANTI/Projeto 2/buscaGitHub/src/assets/img/github/github-mark/github-mark-white.svg"
+import GitHubWhite from '@images/github/github-mark/github-mark-white.svg'
+
 import PropTypes from "prop-types"
 
 function GithubLogo({styles}) {
