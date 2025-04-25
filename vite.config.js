@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/buscaGitHub/',
+  base: '/AVANTI_projeto_2/',
   plugins: [
     react(),
     tailwindcss(),
