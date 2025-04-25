@@ -3,3 +3,11 @@
 /* .title {
     align-items: center;
 } */
+@media (max-width: 350px) {
+    .github-logo {
+        @apply !h-10
+    }
+    .title-logo {
+        @apply text-4xl
+    }
+}

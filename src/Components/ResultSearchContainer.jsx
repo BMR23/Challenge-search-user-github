@@ -48,7 +48,9 @@ const ResultSearchContainer = ({username, clicked}) => {
     return (
         <>
             {clicked && ( 
-                <div className="max-w-[95%] sm:max-w-[1000px] sm:w-auto w-[400px] mx-auto bg-[#D9D9D9] rounded-3xl py-4 mt-9 text-xl"
+                // <div className="max-w-[95%] sm:max-w-[1000px] sm:w-auto w-[400px] mx-auto bg-[#D9D9D9] rounded-3xl py-4 mt-9 text-xl"
+                // >
+                <div className="max-w-[98%] sm:max-w-[804px] w-[95%] bg-[#D9D9D9] rounded-xl py-4 mt-9 text-xl"
                 >
             
                 {!result && (
@@ -87,7 +89,8 @@ const ResultSearchContainer = ({username, clicked}) => {
 }
 
 ResultSearchContainer.propTypes = {
-
+    username: PropTypes.string,
+    clicked: PropTypes.bool,
 }
 
 export default ResultSearchContainer
