@@ -39,7 +39,7 @@ const App = () => {
                 className="absolute top-[500px] lg:top-[400px] left-[0px]"
                 />
                 {/* max-w-[1156px] max-h-[537px] */}
-                <div className="bg-black relative w-full py-[38px] h-[544px] md:h-[537px] xl:w-[80.2%] xl:h-[66.3%] " >
+                <div className="bg-black relative w-full py-[38px] min-h-[544px] md:min-h-[537px] xl:w-[80.2%] xl:h-[66.3%] " >
                     <div className="container relative h-full flex flex-col items-center mx-auto">
                         <header onClick={reset} className="title flex justify-center items-center gap-3 cursor-pointer">
                             <GithubLogo styles={'h-12 sm:h-16 github-logo'}/>
