@@ -8,6 +8,12 @@ O desafio final consiste em desenvolver um layout proposto no Figma utilizando *
 
 ---
 
+### 🌐 Site em Produção
+
+🔗 [Acesse o site publicado aqui](https://bmr23.github.io/AVANTI_projeto_1/)
+
+---
+
 ### 🎨 Layout no Figma
 
 🔗 [Acesse o layout no Figma](https://www.figma.com/design/NsuWd0lNMP7tOBkM9yLsl5/innovation-class--Copy-?node-id=13-673&p=f&t=58U2zvLGuFK7grcq-0)
@@ -33,6 +39,12 @@ The final challenge consists of developing the proposed layout in Figma using **
 
 ---
 
+### 🌐 Live Site
+
+🔗 [Access the deployed site here](https://bmr23.github.io/AVANTI_projeto_1/)
+
+---
+
 ### 🎨 Figma Layout
 
 🔗 [Access the layout in Figma](https://www.figma.com/design/NsuWd0lNMP7tOBkM9yLsl5/innovation-class--Copy-?node-id=13-673&p=f&t=58U2zvLGuFK7grcq-0)
@@ -47,5 +59,3 @@ The final challenge consists of developing the proposed layout in Figma using **
    - **Search**: When clicking the magnifying glass, the typed text should appear below with the message:
      > `You searched for: 'searched topic'`
    - **Carousels**: Add interactivity to the sliding elements on the page.
-
-
