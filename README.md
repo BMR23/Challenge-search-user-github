@@ -1,33 +1,29 @@
-## 📦 Challenge: Ecommerce Home
+## 🔍 Projeto 02: Busca de Perfil de Usuário no GitHub
 
 ### 🇧🇷 PT-BR
 
 ### 📝 Objetivo
 
-O desafio final consiste em desenvolver um layout proposto no Figma utilizando **HTML, CSS e JavaScript**.
-
----
-
-### 🌐 Site em Produção
-
-🔗 [Acesse o site publicado aqui](https://bmr23.github.io/AVANTI_projeto_1/)
+O desafio final consiste em desenvolver uma aplicação **React** que permite buscar perfis do GitHub e exibir informações do usuário conforme o layout proposto no Figma.
 
 ---
 
 ### 🎨 Layout no Figma
 
-🔗 [Acesse o layout no Figma](https://www.figma.com/design/NsuWd0lNMP7tOBkM9yLsl5/innovation-class--Copy-?node-id=13-673&p=f&t=58U2zvLGuFK7grcq-0)
+🔗 [Acesse o layout no Figma](https://www.figma.com/design/NsuWd0lNMP7tOBkM9yLsl5/innovation-class--Copy-?node-id=22-2864&p=f&t=26HWJbr85IuF7VeE-0)
 
 ---
 
 ### ✅ Requisitos
 
-1. **HTML**: Estruturar a página conforme o layout fornecido.  
-2. **CSS ou Framework CSS (como Bootstrap ou TailwindCSS)**: Aplicar estilos garantindo **responsividade**.  
-3. **JavaScript**: Implementar as funcionalidades abaixo:
-   - **Busca**: Ao clicar na lupa, o texto digitado deve ser exibido abaixo com a mensagem:
-     > `Você buscou por: 'assunto buscado'`
-   - **Carrosséis**: Adicionar interatividade aos elementos deslizantes da página.
+1. **Campo de busca**: O usuário digita o nome de um perfil do GitHub.  
+2. **Integração com API do GitHub**: Ao clicar no botão de busca, exibir as seguintes informações:
+   - Nome do usuário  
+   - Foto de perfil  
+   - Bio  
+
+3. **Tratamento de erros**: Exibir mensagens quando o perfil não for encontrado.  
+4. **Estilização**: Seguir o design do Figma. É permitido utilizar frameworks como **Bootstrap**, **TailwindCSS** ou outro.
 
 ---
 
@@ -35,27 +31,23 @@ O desafio final consiste em desenvolver um layout proposto no Figma utilizando *
 
 ### 📝 Goal
 
-The final challenge consists of developing the proposed layout in Figma using **HTML, CSS, and JavaScript**.
-
----
-
-### 🌐 Live Site
-
-🔗 [Access the deployed site here](https://bmr23.github.io/AVANTI_projeto_1/)
+The final challenge consists of developing a **React** application that allows users to search for GitHub profiles and display user information following the proposed Figma layout.
 
 ---
 
 ### 🎨 Figma Layout
 
-🔗 [Access the layout in Figma](https://www.figma.com/design/NsuWd0lNMP7tOBkM9yLsl5/innovation-class--Copy-?node-id=13-673&p=f&t=58U2zvLGuFK7grcq-0)
+🔗 [Access the Figma layout](https://www.figma.com/proto/DqtFxC6312M32mLt8FpJjq/inovation-class?page-id=22%3A2864&node-id=22-4293&viewport=359%2C115%2C0.25&t=SHsEqEgaMrXGMKwv-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=22%3A4293&show-proto-sidebar=1)
 
 ---
 
 ### ✅ Requirements
 
-1. **HTML**: Structure the page according to the provided layout.  
-2. **CSS or a CSS framework (like Bootstrap or TailwindCSS)**: Apply styles ensuring **responsiveness**.  
-3. **JavaScript**: Implement the features below:
-   - **Search**: When clicking the magnifying glass, the typed text should appear below with the message:
-     > `You searched for: 'searched topic'`
-   - **Carousels**: Add interactivity to the sliding elements on the page.
+1. **Search field**: The user types the name of a GitHub profile.  
+2. **GitHub API integration**: When clicking the search button, display the following data:
+   - Username  
+   - Profile picture  
+   - Bio  
+
+3. **Error handling**: Show messages when the profile is not found.  
+4. **Styling**: Follow the Figma design. You can use frameworks like **Bootstrap**, **TailwindCSS**, or others.
