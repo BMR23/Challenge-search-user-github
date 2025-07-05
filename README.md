@@ -8,8 +8,6 @@ O desafio final consiste em desenvolver uma aplicação **React** que permite bu
 
 ---
 
----
-
 ### 🌐 Site em Produção
 
 🔗 [Acesse o site publicado aqui](https://bmr23.github.io/Challenge-search-user-github/)
@@ -40,8 +38,6 @@ O desafio final consiste em desenvolver uma aplicação **React** que permite bu
 ### 📝 Goal
 
 The final challenge consists of developing a **React** application that allows users to search for GitHub profiles and display user information following the proposed Figma layout.
-
----
 
 ---
 
